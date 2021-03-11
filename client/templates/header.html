@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="booka">
+<div id="book"><a href="../s"></a></div>
+    <h1 id="book2">名侦柯镇恶</h1><h5 id="book4" >柯南</h5>
+<p>
+    <span>连载</span>
+    <span>签约</span>
+    <span>免费</span>
+    <span id="book1">武侠</span>
+    <span>武同人</span>
+</p>
+<p>借三尺明月，衔两袖青龙，轻剑快马恣意，携侣江湖同游！</p>
+<p>21.87万字|49955总推荐|442周推荐</p>
+<p><a href="">免费试读</a>
+<button id="add" onclick="aabookrack()">加入书架</button>
+<a href="">投票推荐</a></p>
+</div>
+<div>
+<div>作品信息</div>
+<br>
+<div>
+    <b>最新章节</b><a href="" id="book3">第77章：相见</a><b id="book5">8小时前</b>
+</div>
+</div>
+
+</body>
+
+<script>
+
+   //添加书籍
+   function addbookrack(){
+        var type = $('#book1').text();
+        var title = $('#book2').text();
+        var chapter = $('#book3).text();
+        var datatime = $('#book5').text();
+        var author = $('#book4).text();
+        if ( chapter = ''){
+            var updat = '尚未更新';}
+            else{
+            var updat = '有更新';
+            }
+         var update == updat;
+         var post-data = {"type":type,"title":title,"chapter":chapter,"datatime":datatime,
+                               "author":author,"update":update}
+
+         console.log(post_data)
+
+
+
+         }
+
+
+
+
+
+
+
+
+
+   }
+
+
+
+
+
+
+</script>
+
+
+
+</html>
